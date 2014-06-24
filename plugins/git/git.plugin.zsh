@@ -16,7 +16,7 @@ compdef _git gp=git-push
 alias gd='git diff'
 gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
-alias gc='git commit -v'
+alias gc='git commit -am'
 compdef _git gc=git-commit
 alias gc!='git commit -v --amend'
 compdef _git gc!=git-commit
