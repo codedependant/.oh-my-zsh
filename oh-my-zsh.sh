@@ -88,3 +88,5 @@ else
     fi
   fi
 fi
+
+cd ~/Development
